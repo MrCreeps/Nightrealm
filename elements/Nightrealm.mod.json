@@ -1,0 +1,52 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AbyssalPlains"
+      },
+      {
+        "value": "CUSTOM:MidnightForest"
+      },
+      {
+        "value": "CUSTOM:TwilightHills"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Darkstone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_LAVA"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "FALL_LAVA"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Flint and Gold",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "flint_and_gold",
+    "portalTexture": "nightmare_portal",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "nightrealm:block/nightrealm_portal_ew"
+    },
+    "axis=x": {
+      "model": "nightrealm:block/nightrealm_portal_ns"
+    }
+  }
+}

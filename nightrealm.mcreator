@@ -1,0 +1,548 @@
+{
+  "mod_elements": [
+    {
+      "name": "NightmareGrassBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_grass_block"
+    },
+    {
+      "name": "NightmareDirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_dirt"
+    },
+    {
+      "name": "Darkstone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone"
+    },
+    {
+      "name": "TwilightHills",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twilight_hills"
+    },
+    {
+      "name": "MidnightForest",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_forest"
+    },
+    {
+      "name": "AbyssalPlains",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_plains"
+    },
+    {
+      "name": "Nightrealm",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightrealm",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "HallowboneLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_log"
+    },
+    {
+      "name": "HallowboneLeaves",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_leaves"
+    },
+    {
+      "name": "HallowboneTree6AdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_6_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HallowboneTree6",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_6",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree7",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_7",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree8",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_8",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree9",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_9",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree11",
+      "type": "structure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_11",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree13",
+      "type": "structure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_13",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTreeThick",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_thick",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree6a",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_6a",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "HallowboneTree7a",
+      "type": "structure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_tree_7a",
+      "path": "~/Hallowbone Trees"
+    },
+    {
+      "name": "CinnabarOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_ore"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "PromethiumOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "promethium_ore"
+    },
+    {
+      "name": "Cinnabar",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar"
+    },
+    {
+      "name": "Cobalt",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt"
+    },
+    {
+      "name": "Promethium",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "promethium"
+    },
+    {
+      "name": "HallowboneAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_axe"
+    },
+    {
+      "name": "HallowboneShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_shovel"
+    },
+    {
+      "name": "HallowbonePickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_pickaxe"
+    },
+    {
+      "name": "HallowboneSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_sword"
+    },
+    {
+      "name": "HallowboneHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_hoe"
+    },
+    {
+      "name": "DarkstoneAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_axe"
+    },
+    {
+      "name": "DarkstoneShovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_shovel"
+    },
+    {
+      "name": "DarkstonePickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_pickaxe"
+    },
+    {
+      "name": "DarkstoneSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_sword"
+    },
+    {
+      "name": "DarkstoneHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_hoe"
+    },
+    {
+      "name": "CinnabarShovel",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_shovel"
+    },
+    {
+      "name": "CinnabarPickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_pickaxe"
+    },
+    {
+      "name": "CinnabarAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_axe"
+    },
+    {
+      "name": "CinnabarHoe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_hoe"
+    },
+    {
+      "name": "CinnabarSword",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_sword"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "HallowbonePlanks",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_planks"
+    },
+    {
+      "name": "HallowbonePlanksRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_planks_recipe"
+    },
+    {
+      "name": "HallowboneStick",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick"
+    },
+    {
+      "name": "FlintAndGoldTrade",
+      "type": "villagertrade",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_and_gold_trade"
+    },
+    {
+      "name": "Purifier",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier"
+    },
+    {
+      "name": "PurifierOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurificationPowder",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purification_powder"
+    },
+    {
+      "name": "PurifierGUI",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier_gui"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "slotAmount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.nightrealm.cinnabar_sword": "Cinnabar Sword",
+      "item.nightrealm.hallowbone_pickaxe": "Hallowbone Pickaxe",
+      "item.nightrealm.hallowbone_shovel": "Hallowbone Shovel",
+      "block.nightrealm.hallowbone_log": "Hallowbone Log",
+      "item.nightrealm.hallowbone_sword": "Hallowbone Sword",
+      "item.nightrealm.cinnabar_shovel": "Cinnabar Shovel",
+      "item.nightrealm.cobalt_sword": "Cobalt Sword",
+      "block.nightrealm.nightmare_dirt": "Nightmare Dirt",
+      "item.nightrealm.darkstone_shovel": "Darkstone Shovel",
+      "block.nightrealm.cinnabar_ore": "Cinnabar Ore",
+      "block.nightrealm.cobalt_ore": "Cobalt Ore",
+      "item.nightrealm.promethium": "Promethium",
+      "item.nightrealm.darkstone_hoe": "Darkstone Hoe",
+      "item.nightrealm.cobalt_shovel": "Cobalt Shovel",
+      "item.nightrealm.cinnabar_hoe": "Cinnabar Hoe",
+      "item.nightrealm.cinnabar": "Cinnabar",
+      "item.nightrealm.cobalt_pickaxe": "Cobalt Pickaxe",
+      "item.nightrealm.nightrealm": "Flint and Gold",
+      "block.nightrealm.hallowbone_planks": "Hallowbone Planks",
+      "block.nightrealm.promethium_ore": "Promethium Ore",
+      "block.nightrealm.nightmare_grass_block": "Nightmare Grass Block",
+      "block.nightrealm.purifier": "Purifier",
+      "item.nightrealm.purification_powder": "Purification Powder",
+      "item.nightrealm.hallowbone_stick": "Hallowbone Stick",
+      "item.nightrealm.darkstone_axe": "Darkstone Axe",
+      "block.nightrealm.darkstone": "Darkstone",
+      "item.nightrealm.cobalt_axe": "Cobalt Axe",
+      "item.nightrealm.cinnabar_axe": "Cinnabar Axe",
+      "item.nightrealm.hallowbone_axe": "Hallowbone Axe",
+      "item.nightrealm.darkstone_sword": "Darkstone Sword",
+      "item.nightrealm.darkstone_pickaxe": "Darkstone Pickaxe",
+      "item.nightrealm.cobalt_hoe": "Cobalt Hoe",
+      "biome.nightrealm.midnight_forest": "Midnight Forest",
+      "biome.nightrealm.abyssal_plains": "Midnight Forest",
+      "item.nightrealm.cobalt": "Cobalt",
+      "block.nightrealm.hallowbone_leaves": "Hallowbone Leaves",
+      "item.nightrealm.hallowbone_hoe": "Hallowbone Hoe",
+      "biome.nightrealm.twilight_hills": "Twilight Hills",
+      "item.nightrealm.cinnabar_pickaxe": "Cinnabar Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Hallowbone Trees",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nightrealm",
+    "modName": "Nightrealm",
+    "version": "1.0.0",
+    "author": "docto, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "mrcreeps.mods.nightrealm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

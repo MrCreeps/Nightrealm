@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "TOOLSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.FLINT_AND_STEEL"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Nightrealm"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 0,
+            "priceMultiplier": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

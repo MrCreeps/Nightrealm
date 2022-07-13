@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nightrealm:blocks/cinnabar_ore",
+    "particle": "nightrealm:blocks/cinnabar_ore"
+  }
+}

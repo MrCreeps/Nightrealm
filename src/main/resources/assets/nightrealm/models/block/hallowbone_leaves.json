@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "nightrealm:blocks/hallowbone_leaves",
+    "particle": "nightrealm:blocks/hallowbone_leaves"
+  }
+}

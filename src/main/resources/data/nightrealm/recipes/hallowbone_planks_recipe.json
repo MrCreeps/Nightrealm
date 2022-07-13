@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nightrealm:hallowbone_log"
+    }
+  ],
+  "result": {
+    "item": "nightrealm:hallowbone_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "nightrealm:blocks/nightmare_soil",
+    "top": "nightrealm:blocks/nightmare_grass_top",
+    "side": "nightrealm:blocks/nightmare_grass_side",
+    "overlay": "nightrealm:blocks/nightmare_grass_overlay",
+    "particle": "nightrealm:blocks/nightmare_soil"
+  }
+}
