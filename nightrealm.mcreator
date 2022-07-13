@@ -424,46 +424,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_and_gold_trade"
-    },
-    {
-      "name": "Purifier",
-      "type": "block",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purifier"
-    },
-    {
-      "name": "PurifierOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purifier_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PurificationPowder",
-      "type": "item",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purification_powder"
-    },
-    {
-      "name": "PurifierGUI",
-      "type": "gui",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purifier_gui"
     }
   ],
   "variable_elements": [
@@ -498,8 +458,6 @@
       "block.nightrealm.hallowbone_planks": "Hallowbone Planks",
       "block.nightrealm.promethium_ore": "Promethium Ore",
       "block.nightrealm.nightmare_grass_block": "Nightmare Grass Block",
-      "block.nightrealm.purifier": "Purifier",
-      "item.nightrealm.purification_powder": "Purification Powder",
       "item.nightrealm.hallowbone_stick": "Hallowbone Stick",
       "item.nightrealm.darkstone_axe": "Darkstone Axe",
       "block.nightrealm.darkstone": "Darkstone",
