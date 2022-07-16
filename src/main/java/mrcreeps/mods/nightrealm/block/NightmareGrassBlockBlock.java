@@ -80,7 +80,7 @@ public class NightmareGrassBlockBlock extends NightrealmModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 1f).setLightLevel(s -> 0)
-					.harvestLevel(-1).harvestTool(ToolType.SHOVEL).setRequiresTool());
+					.harvestLevel(-1).harvestTool(ToolType.SHOVEL).setRequiresTool().tickRandomly());
 			setRegistryName("nightmare_grass_block");
 		}
 
@@ -99,7 +99,7 @@ public class NightmareGrassBlockBlock extends NightrealmModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(NightmareGrassBlockBlock.block));
+			return Collections.singletonList(new ItemStack(NightmareDirtBlock.block));
 		}
 	}
 }

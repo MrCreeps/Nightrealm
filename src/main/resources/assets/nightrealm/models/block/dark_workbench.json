@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nightrealm:blocks/hallowbone_planks",
+    "up": "nightrealm:blocks/dark_workbench_top",
+    "north": "nightrealm:blocks/dark_workbench",
+    "east": "nightrealm:blocks/dark_workbench",
+    "south": "nightrealm:blocks/dark_workbench",
+    "west": "nightrealm:blocks/dark_workbench",
+    "particle": "nightrealm:blocks/hallowbone_planks"
+  }
+}

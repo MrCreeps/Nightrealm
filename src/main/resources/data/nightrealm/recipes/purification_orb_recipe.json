@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nightrealm:nightmare_dirt"
+    },
+    {
+      "item": "nightrealm:bloodlight_hyacinth"
+    },
+    {
+      "item": "nightrealm:toxic_aster"
+    },
+    {
+      "item": "nightrealm:frosted_cosmos"
+    }
+  ],
+  "result": {
+    "item": "nightrealm:purification_orb",
+    "count": 1
+  }
+}

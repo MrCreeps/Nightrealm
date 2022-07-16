@@ -424,6 +424,996 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_and_gold_trade"
+    },
+    {
+      "name": "NightmareGrass",
+      "type": "plant",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_grass"
+    },
+    {
+      "name": "BloodlightHyacinth",
+      "type": "plant",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodlight_hyacinth"
+    },
+    {
+      "name": "ToxicAster",
+      "type": "plant",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_aster"
+    },
+    {
+      "name": "FrostedCosmos",
+      "type": "plant",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosted_cosmos"
+    },
+    {
+      "name": "Lumenil",
+      "type": "plant",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumenil"
+    },
+    {
+      "name": "HallowboneStickRecipe1",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_1",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneStickRecipe2",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_2",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneStickRecipe3",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_3",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneStickRecipe4",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_4",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneStickRecipe5",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_5",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneStickRecipe6",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_stick_recipe_6",
+      "path": "~/Hallowbone Stick Recipes"
+    },
+    {
+      "name": "HallowboneShovelRecipe",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "HallowbonePickaxeRecipe",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "HallowboneAxeRecipe",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "HallowboneHoeRecipe",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "HallowboneSwordRecipe",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateHallowboneRecipes",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_hallowbone_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkstoneShovelRecipe",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkstonePickaxeRecipe",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkstoneAxeRecipe",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkstoneHoeRecipe",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkstoneSwordRecipe",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateDarkstoneRecipes",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_darkstone_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateCobaltRecipes",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_cobalt_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CinnabarShovelRecipe",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CinnabarPickaxeRecipe",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CinnabarAxeRecipe",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CinnabarHoeRecipe",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CinnabarSwordRecipe",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinnabar_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateCinnabarRecipes",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_cinnabar_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateAllRecipes",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_all_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "DarkforgeGUI",
+      "type": "gui",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkforge_gui",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "RemoveFromSlot",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_from_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "Darkforge",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_workbench",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "Wealdhound",
+      "type": "livingentity",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wealdhound"
+    },
+    {
+      "name": "Blooddrop",
+      "type": "particle",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooddrop"
+    },
+    {
+      "name": "SummonBlooddrop",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_blooddrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodRain",
+      "type": "command",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_rain"
+    },
+    {
+      "name": "BloodRainEventEffect",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_rain_event_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodRainCommandExecuted",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_rain_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodrainAmount",
+      "type": "gamerule",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodrainAmount",
+      "metadata": {
+        "type": "number"
+      }
+    },
+    {
+      "name": "Nightslitherer",
+      "type": "livingentity",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightslitherer"
+    },
+    {
+      "name": "AcidSpit",
+      "type": "rangeditem",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_spit"
+    },
+    {
+      "name": "AbyssalTentacle",
+      "type": "plant",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_tentacle"
+    },
+    {
+      "name": "BloodrainDebug",
+      "type": "gamerule",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodrainDebug",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "SlitherscaleArmor",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slitherscale_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Slitherscale",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slitherscale"
+    },
+    {
+      "name": "InitiateCobaltArmorRecipes",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_cobalt_armor_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltArmorRecipes",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "SlitherscaleArmorRecipes",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slitherscale_armor_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiateSlitherscaleArmorRecipes",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_slitherscale_armor_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "NightslithererLoot",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightslitherer_loot"
+    },
+    {
+      "name": "HallowboneHelmet",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_helmet"
+    },
+    {
+      "name": "HallowboneChestplate",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_chestplate"
+    },
+    {
+      "name": "HallowboneLeggings",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_leggings"
+    },
+    {
+      "name": "HallowboneBoots",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallowbone_boots"
+    },
+    {
+      "name": "DarkforgeRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkforge_recipe",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "PurificationOrb",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purification_orb",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "WoodenPurification",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_purification",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "InitiatePurification",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_purification",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "PurificationOrbRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purification_orb_recipe"
     }
   ],
   "variable_elements": [
@@ -432,47 +1422,111 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "didInit",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "eventTimer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "eventOngoing",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "eventTimeReset",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "eventDelay",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "eventTimeTotal",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.nightrealm.cinnabar_sword": "Cinnabar Sword",
       "item.nightrealm.hallowbone_pickaxe": "Hallowbone Pickaxe",
+      "item.nightrealm.cinnabar_sword": "Cinnabar Sword",
+      "item.nightrealm.hallowbone_boots": "Hallowbone Boots",
       "item.nightrealm.hallowbone_shovel": "Hallowbone Shovel",
+      "item.nightrealm.slitherscale_armor_boots": "Slitherscale Boots",
+      "entity.nightrealm.wealdhound": "Wealdhound",
       "block.nightrealm.hallowbone_log": "Hallowbone Log",
-      "item.nightrealm.hallowbone_sword": "Hallowbone Sword",
-      "item.nightrealm.cinnabar_shovel": "Cinnabar Shovel",
       "item.nightrealm.cobalt_sword": "Cobalt Sword",
+      "block.nightrealm.dark_workbench": "Dark Workbench",
       "block.nightrealm.nightmare_dirt": "Nightmare Dirt",
+      "entity.nightrealm.nightslitherer": "Nightslitherer",
       "item.nightrealm.darkstone_shovel": "Darkstone Shovel",
-      "block.nightrealm.cinnabar_ore": "Cinnabar Ore",
-      "block.nightrealm.cobalt_ore": "Cobalt Ore",
-      "item.nightrealm.promethium": "Promethium",
-      "item.nightrealm.darkstone_hoe": "Darkstone Hoe",
+      "item.nightrealm.slitherscale": "Slitherscale",
       "item.nightrealm.cobalt_shovel": "Cobalt Shovel",
+      "block.nightrealm.cobalt_ore": "Cobalt Ore",
+      "gamerule.bloodrainAmount.description": "Level of Particles per Blood Rain",
+      "item.nightrealm.slitherscale_armor_helmet": "Slitherscale Helmet",
       "item.nightrealm.cinnabar_hoe": "Cinnabar Hoe",
       "item.nightrealm.cinnabar": "Cinnabar",
       "item.nightrealm.cobalt_pickaxe": "Cobalt Pickaxe",
+      "item.nightrealm.purification_orb": "Purification Orb",
+      "block.nightrealm.nightmare_grass_block": "Nightmare Grass Block",
+      "block.nightrealm.lumenil": "Frosted Cosmos",
+      "gamerule.bloodrainDebug.description": "Is Debugging for Blood Rain Enabled?",
+      "item.nightrealm.slitherscale_armor_chestplate": "Slitherscale Chestplate",
+      "block.nightrealm.darkstone": "Darkstone",
+      "item.nightrealm.cinnabar_axe": "Cinnabar Axe",
+      "item.nightrealm.hallowbone_axe": "Hallowbone Axe",
+      "item.nightrealm.cobalt_hoe": "Cobalt Hoe",
+      "gamerule.bloodrainAmount": "Bloodrain Amount",
+      "item.nightrealm.slitherscale_armor_leggings": "Slitherscale Leggings",
+      "block.nightrealm.hallowbone_leaves": "Hallowbone Leaves",
+      "block.nightrealm.toxic_aster": "Toxic Aster",
+      "block.nightrealm.frosted_cosmos": "Frosted Cosmos",
+      "gamerule.bloodrain_debug": "Bloodrain Amount",
+      "block.nightrealm.abyssal_tentacle": "Abyssal Tentacle",
+      "item.nightrealm.hallowbone_sword": "Hallowbone Sword",
+      "item.nightrealm.hallowbone_chestplate": "Hallowbone Chestplate",
+      "item.nightrealm.cinnabar_shovel": "Cinnabar Shovel",
+      "gamerule.bloodrainDebug": "Bloodrain Debug",
+      "item.nightrealm.darkstone_hoe": "Darkstone Hoe",
+      "item.nightrealm.promethium": "Promethium",
+      "block.nightrealm.cinnabar_ore": "Cinnabar Ore",
+      "block.nightrealm.bloodlight_hyacinth": "Bloodlight Hyacinth",
       "item.nightrealm.nightrealm": "Flint and Gold",
       "block.nightrealm.hallowbone_planks": "Hallowbone Planks",
       "block.nightrealm.promethium_ore": "Promethium Ore",
-      "block.nightrealm.nightmare_grass_block": "Nightmare Grass Block",
+      "item.nightrealm.hallowbone_helmet": "Hallowbone Helmet",
       "item.nightrealm.hallowbone_stick": "Hallowbone Stick",
       "item.nightrealm.darkstone_axe": "Darkstone Axe",
-      "block.nightrealm.darkstone": "Darkstone",
       "item.nightrealm.cobalt_axe": "Cobalt Axe",
-      "item.nightrealm.cinnabar_axe": "Cinnabar Axe",
-      "item.nightrealm.hallowbone_axe": "Hallowbone Axe",
+      "item.nightrealm.acid_spit": "Acid Spit",
+      "item.nightrealm.nightslitherer_spawn_egg": "Nightslitherer Spawn Egg",
       "item.nightrealm.darkstone_sword": "Darkstone Sword",
       "item.nightrealm.darkstone_pickaxe": "Darkstone Pickaxe",
-      "item.nightrealm.cobalt_hoe": "Cobalt Hoe",
       "biome.nightrealm.midnight_forest": "Midnight Forest",
-      "biome.nightrealm.abyssal_plains": "Midnight Forest",
+      "item.nightrealm.wealdhound_spawn_egg": "Wealdhound Spawn Egg",
       "item.nightrealm.cobalt": "Cobalt",
-      "block.nightrealm.hallowbone_leaves": "Hallowbone Leaves",
+      "biome.nightrealm.abyssal_plains": "Midnight Forest",
+      "item.nightrealm.hallowbone_leggings": "Hallowbone Chestplate",
       "item.nightrealm.hallowbone_hoe": "Hallowbone Hoe",
+      "block.nightrealm.nightmare_grass": "Nightmare Grass",
       "biome.nightrealm.twilight_hills": "Twilight Hills",
+      "gamerule.bloodrain_debug.description": "Level of Particles per Blood Rain",
       "item.nightrealm.cinnabar_pickaxe": "Cinnabar Pickaxe"
     }
   },
@@ -482,16 +1536,25 @@
       {
         "name": "Hallowbone Trees",
         "children": []
+      },
+      {
+        "name": "Hallowbone Stick Recipes",
+        "children": []
+      },
+      {
+        "name": "Tool Recipes",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "nightrealm",
     "modName": "Nightrealm",
-    "version": "1.0.0",
-    "author": "docto, MCreator",
+    "version": "0.0.3 Dev Build",
+    "description": "Enter the Nightrealm, a dark dimension, only lit with the bioluminescence of its leaves, plants, and burning lakes of lava.",
+    "author": "MrCreeps, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -499,6 +1562,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "mrcreeps.mods.nightrealm",
     "lockBaseModFiles": false
   },

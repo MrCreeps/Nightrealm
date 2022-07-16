@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "nightrealm:block/abyssal_tentacle"
+    },
+    "half=lower": {
+      "model": "nightrealm:block/abyssal_tentacle_bottom"
+    }
+  }
+}

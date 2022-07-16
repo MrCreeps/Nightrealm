@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nightrealm:block/dark_workbench"
+    },
+    "facing=east": {
+      "model": "nightrealm:block/dark_workbench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nightrealm:block/dark_workbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nightrealm:block/dark_workbench",
+      "y": 270
+    }
+  }
+}

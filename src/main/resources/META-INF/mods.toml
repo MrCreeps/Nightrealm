@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="nightrealm"
-version="1.0.0"
+version="0.0.3"
 displayName="Nightrealm"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="docto, MCreator"
+authors="MrCreeps, MCreator"
+description='''
+Enter the Nightrealm, a dark dimension, only lit with the bioluminescence of its leaves, plants, and burning lakes of lava.
+'''
 
 [[dependencies.nightrealm]]
     modId="minecraft"

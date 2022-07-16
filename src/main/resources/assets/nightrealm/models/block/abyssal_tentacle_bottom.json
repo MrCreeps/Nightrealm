@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nightrealm:blocks/abyssal_tentacle",
+    "particle": "nightrealm:blocks/abyssal_tentacle"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "nightrealm:blocks/nightmare_grass",
+    "particle": "nightrealm:blocks/nightmare_grass"
+  }
+}

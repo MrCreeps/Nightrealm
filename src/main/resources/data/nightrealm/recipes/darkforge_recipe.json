@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "1": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "2": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "3": {
+      "item": "nightrealm:hallowbone_planks"
+    }
+  },
+  "result": {
+    "item": "nightrealm:dark_workbench",
+    "count": 1
+  }
+}

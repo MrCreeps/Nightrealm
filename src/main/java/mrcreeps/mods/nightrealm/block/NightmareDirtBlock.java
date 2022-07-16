@@ -40,7 +40,7 @@ public class NightmareDirtBlock extends NightrealmModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 1f).setLightLevel(s -> 0).harvestLevel(-1)
-					.harvestTool(ToolType.SHOVEL).setRequiresTool());
+					.harvestTool(ToolType.SHOVEL).setRequiresTool().tickRandomly());
 			setRegistryName("nightmare_dirt");
 		}
 

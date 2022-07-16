@@ -43,7 +43,7 @@
     },
     "destroyTool": "shovel",
     "customDrop": {
-      "value": "CUSTOM:NightmareGrassBlock"
+      "value": "CUSTOM:NightmareDirt"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -55,7 +55,7 @@
       "value": "GRASS"
     },
     "tickRate": 10,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {

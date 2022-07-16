@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nightrealm:blocks/frosted_cosmos",
+    "particle": "nightrealm:blocks/frosted_cosmos"
+  }
+}

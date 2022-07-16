@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "1": {
+      "item": "nightrealm:hallowbone_planks"
+    }
+  },
+  "result": {
+    "item": "nightrealm:hallowbone_stick",
+    "count": 1
+  }
+}

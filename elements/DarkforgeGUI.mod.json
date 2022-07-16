@@ -1,0 +1,133 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "InitiateAllRecipes"
+          },
+          "name": "Slot #0",
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "InitiateAllRecipes"
+          },
+          "name": "Slot #1",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "RemoveFromSlot"
+          },
+          "name": "Slot #3",
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:HallowboneStick"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "InitiateAllRecipes"
+          },
+          "name": "Slot #2",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dark Workbench",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dark Workbench",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 215,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stick_gui.png",
+          "use1Xscale": false,
+          "name": "stick_gui.png",
+          "x": 178,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "material_gui.png",
+          "use1Xscale": false,
+          "name": "material_gui.png",
+          "x": 187,
+          "y": 63
+        }
+      }
+    ],
+    "onTick": {
+      "name": "InitiateAllRecipes"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -47,9 +47,9 @@
     "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:Blooddrop"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 3.0,
     "biomeCategory": "NONE",
     "rainingPossibility": 0.0,
     "temperature": 2.0,
