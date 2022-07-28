@@ -1414,6 +1414,76 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "purification_orb_recipe"
+    },
+    {
+      "name": "VeryThinMan",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer"
+    },
+    {
+      "name": "Blob",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blob"
+    },
+    {
+      "name": "CobaltHelmetRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_helmet_recipe",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltHelmetRecipe2",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_helmet_recipe_2",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltBootsRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_boots_recipe",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltBootsRecipe2",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_boots_recipe_2",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_leggings_recipe",
+      "path": "~/Tool Recipes"
+    },
+    {
+      "name": "CobaltChestplateRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_chestplate_recipe",
+      "path": "~/Tool Recipes"
     }
   ],
   "variable_elements": [
@@ -1463,8 +1533,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.nightrealm.hallowbone_pickaxe": "Hallowbone Pickaxe",
       "item.nightrealm.cinnabar_sword": "Cinnabar Sword",
+      "item.nightrealm.hallowbone_pickaxe": "Hallowbone Pickaxe",
       "item.nightrealm.hallowbone_boots": "Hallowbone Boots",
       "item.nightrealm.hallowbone_shovel": "Hallowbone Shovel",
       "item.nightrealm.slitherscale_armor_boots": "Slitherscale Boots",
@@ -1472,26 +1542,28 @@
       "block.nightrealm.hallowbone_log": "Hallowbone Log",
       "item.nightrealm.cobalt_sword": "Cobalt Sword",
       "block.nightrealm.dark_workbench": "Dark Workbench",
+      "entity.nightrealm.wanderer": "Wanderer",
       "block.nightrealm.nightmare_dirt": "Nightmare Dirt",
       "entity.nightrealm.nightslitherer": "Nightslitherer",
       "item.nightrealm.darkstone_shovel": "Darkstone Shovel",
       "item.nightrealm.slitherscale": "Slitherscale",
-      "item.nightrealm.cobalt_shovel": "Cobalt Shovel",
       "block.nightrealm.cobalt_ore": "Cobalt Ore",
+      "item.nightrealm.cobalt_shovel": "Cobalt Shovel",
       "gamerule.bloodrainAmount.description": "Level of Particles per Blood Rain",
-      "item.nightrealm.slitherscale_armor_helmet": "Slitherscale Helmet",
       "item.nightrealm.cinnabar_hoe": "Cinnabar Hoe",
+      "item.nightrealm.slitherscale_armor_helmet": "Slitherscale Helmet",
       "item.nightrealm.cinnabar": "Cinnabar",
       "item.nightrealm.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.nightrealm.purification_orb": "Purification Orb",
       "block.nightrealm.nightmare_grass_block": "Nightmare Grass Block",
-      "block.nightrealm.lumenil": "Frosted Cosmos",
+      "block.nightrealm.lumenil": "Lumenil",
       "gamerule.bloodrainDebug.description": "Is Debugging for Blood Rain Enabled?",
       "item.nightrealm.slitherscale_armor_chestplate": "Slitherscale Chestplate",
       "block.nightrealm.darkstone": "Darkstone",
       "item.nightrealm.cinnabar_axe": "Cinnabar Axe",
       "item.nightrealm.hallowbone_axe": "Hallowbone Axe",
       "item.nightrealm.cobalt_hoe": "Cobalt Hoe",
+      "item.nightrealm.wanderer_spawn_egg": "Wanderer Spawn Egg",
       "gamerule.bloodrainAmount": "Bloodrain Amount",
       "item.nightrealm.slitherscale_armor_leggings": "Slitherscale Leggings",
       "block.nightrealm.hallowbone_leaves": "Hallowbone Leaves",
@@ -1499,6 +1571,8 @@
       "block.nightrealm.frosted_cosmos": "Frosted Cosmos",
       "gamerule.bloodrain_debug": "Bloodrain Amount",
       "block.nightrealm.abyssal_tentacle": "Abyssal Tentacle",
+      "item.nightrealm.blob_spawn_egg": "Blob Spawn Egg",
+      "entity.nightrealm.blob": "Blob",
       "item.nightrealm.hallowbone_sword": "Hallowbone Sword",
       "item.nightrealm.hallowbone_chestplate": "Hallowbone Chestplate",
       "item.nightrealm.cinnabar_shovel": "Cinnabar Shovel",

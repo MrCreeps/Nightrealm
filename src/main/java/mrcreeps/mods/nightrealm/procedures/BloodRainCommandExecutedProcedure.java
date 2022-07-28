@@ -48,6 +48,12 @@ public class BloodRainCommandExecutedProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(
+						new StringTextComponent(("" + (entity.getCapability(NightrealmModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new NightrealmModVariables.PlayerVariables())).eventTimeTotal)),
+						(false));
+			}
 			{
 				double _setval = 0;
 				entity.getCapability(NightrealmModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

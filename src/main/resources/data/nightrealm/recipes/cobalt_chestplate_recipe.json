@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "2": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "3": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "4": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "5": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "6": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "7": {
+      "item": "nightrealm:hallowbone_planks"
+    },
+    "8": {
+      "item": "nightrealm:hallowbone_planks"
+    }
+  },
+  "result": {
+    "item": "nightrealm:hallowbone_chestplate",
+    "count": 1
+  }
+}
